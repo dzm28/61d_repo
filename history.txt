@@ -1,0 +1,59 @@
+ echo Hello World!
+ pwd
+ cd desktop
+ mkdir cs61d
+ cd cs61d
+ mkdir bash-assignment
+ cd bash-assignment
+ touch README.md
+ touch meaning-of-life.txt
+ mv meaning-of-life.txt history.txt
+ code .
+ git init
+ git status
+ git add .
+ git status
+ git commit -m "Initial commit"
+ git checkout -b new-feature
+ git branch
+ touch feature.txt
+ git add .
+ git commit -m "feature.txt added"
+ git checkout main
+ git merge new-feature -m "new-feature merge" 
+ git branch -d new-feature
+ git remote add origin https://github.com/dzm28/61d_repo.git
+ git branch -M main
+ git push -u origin main
+ 1071  git push origin conflict1 
+ 1072  git checkout main
+ 1073  git checkout -b conflict2 
+ 1074  git add .
+ 1075  git commit -m "conflict 2 additions"
+ 1076  git push
+ 1077  git push origin conflict2 
+ 1078  git checkout main
+ 1079  git pull 
+ 1080  git pull
+ 1081  touch .gitignore
+ 1082  git add .
+ 1083  git commit -m "git ignore added"
+ 1084  touch no-commit.txt
+ 1085  git status
+ 1086  git push
+ 1072  git checkout main
+ 1073  git checkout -b conflict2 
+ 1074  git add .
+ 1075  git commit -m "conflict 2 additions"
+ 1076  git push
+ 1077  git push origin conflict2 
+ 1078  git checkout main
+ 1079  git pull 
+ 1080  git pull
+ 1081  touch .gitignore
+ 1082  git add .
+ 1083  git commit -m "git ignore added"
+ 1084  touch no-commit.txt
+ 1085  git status
+ 1086  git push
+ 1087  # Write 200 most recent bash commands to history.txt\nhistory | tail -n 200 >> history.txt
