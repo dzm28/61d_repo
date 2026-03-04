@@ -1,1 +1,2 @@
-New feature text file. New conflict 2. 
+New feature text file. New conflict 1.
+

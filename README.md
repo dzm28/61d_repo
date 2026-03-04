@@ -1,3 +1,2 @@
-
-
-conflict2 addition. 
+Conflict 1 addition
+<h1 header>
